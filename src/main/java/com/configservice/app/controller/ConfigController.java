@@ -1,0 +1,13 @@
+package com.configservice.app.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ConfigController {
+
+	@GetMapping("/getAppVersion")
+	public String getAppVersion() {
+		return "";
+	}
+}
